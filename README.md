@@ -1,5 +1,15 @@
+# Overview
 
-#  NCEP North American Regional Reanalysis: NARR
+This contains code to download, subset, and minimally process netcdf4 data from NCEP NARR.
+
+There are unix BASH scripts to download (wget), subset (ncks), and stack (ncrcat).
+
+The netcdf4 data is pretty large, so the best plan is to run the BASH scripts on one of the NEFSC servers or somewhere else with a good network connection.
+
+There are a few R and stata do files that I used to investigate the netcdf4 data. 
+
+# Data sources
+##  NCEP North American Regional Reanalysis: NARR
 
 
 The native model grid is converted to a Northern Lambert Conformal Conic grid which is what we archive. Corners of this grid are
