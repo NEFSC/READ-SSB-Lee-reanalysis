@@ -2,7 +2,7 @@
 
 This contains code to download, subset, and minimally process netcdf4 data from NCEP NARR.
 
-There are unix BASH scripts to download (wget), subset (ncks), and stack (ncrcat).
+There are unix BASH scripts to download (wget), subset (ncks), and stack (ncrcat).  The BASH script can run all by itself. You can either put them on the network, CHMOD -774 them, and execute them. Or you can just copy/paste in fragments, like I often do. It's a short script.
 
 The netcdf4 data is pretty large, so the best plan is to run the BASH scripts on one of the NEFSC servers or somewhere else with a good network connection.
 

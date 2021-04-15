@@ -1,5 +1,5 @@
 # R script to create folders
-# This line is the only line you shoudl have to change to get it to run.
+# This line is the only line you should have to change to get it to run.
  my_projdir<-"C:/Users/Min-Yang.Lee/Documents/READ-SSB-Lee-reanalysis"
 
 # Setup directories
