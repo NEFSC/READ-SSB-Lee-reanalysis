@@ -6,7 +6,7 @@ There are unix BASH scripts to download (wget), subset (ncks), and stack (ncrcat
 
 The netcdf4 data is pretty large, so the best plan is to run the BASH scripts on one of the NEFSC servers or somewhere else with a good network connection.
 
-There are a few R and stata do files that I used to investigate the netcdf4 data. 
+There are a few R and stata do files that I used to investigate the netcdf4 data.  If you use those, you'll want to pay attention to the setup files that deal with directories and other nonsense.
 
 # Data sources
 ##  NCEP North American Regional Reanalysis: NARR
