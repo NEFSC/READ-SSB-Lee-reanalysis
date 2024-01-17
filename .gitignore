@@ -2,3 +2,7 @@
 READ-SSB-Lee-reanalysis.Rproj
 README.html
 .Rhistory
+*.dta
+*.nc
+/data/intermediate/*
+/data/main/*
