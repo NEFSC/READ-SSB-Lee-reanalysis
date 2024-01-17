@@ -1,13 +1,7 @@
 #Install packages if necessary
-if(!require(RODBC)) {  
-  install.packages("RODBC")
-  require(RODBC)}
-if(!require(DBI)) {  
-  install.packages("DBI")
-  require(DBI)}
- # if(!require(ROracle)) {  
- #   install.packages("ROracle")
- #   require(ROracle)}
+library(chron)
+library(ncdf4)
+library(haven)
 
 # Setup directories
 
@@ -36,7 +30,7 @@ stata_analysis_code <-file.path(stata_codedir, "analysis")
 
 
 # setup data folder
-my_datadir <-file.path(my_projdir, "data_folder")
+my_datadir <-file.path(my_projdir, "data")
 data_internal <-file.path(my_datadir, "internal")
 data_external<-file.path(my_datadir, "external")
 data_main <-file.path(my_datadir, "main")
